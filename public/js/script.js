@@ -7,7 +7,7 @@ const token = document
 const errorList = document.querySelector(".error_list");
 const linkList = document.querySelector(".link_list");
 
-const url = "http://localhost:8000";
+const url = window.location.origin;
 
 form.addEventListener("submit", submitFormHandler);
 
