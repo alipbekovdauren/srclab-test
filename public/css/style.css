@@ -1,0 +1,28 @@
+* {
+    font-size: 20px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 600px;
+}
+#input {
+    padding: 5px;
+    outline: none;
+}
+#button {
+    padding: 5px;
+    margin-top: 15px;
+}
+.error_list li {
+    color: red;
+    list-style: none;
+}
+.link_list li {
+    display: flex;
+    margin-top: 15px;
+}
+.link_list li:first-child a {
+    color: green;
+}
